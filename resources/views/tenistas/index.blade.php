@@ -26,16 +26,19 @@
                                     Nombre
                                 </th>
                                 <th scope="col" class="px-6 py-3">
-                                  Descripción
+                                  Apellidos
                                 </th>
                                 <th scope="col" class="px-6 py-3">
-                                   Completada
+                                   Altura
                                 </th>
                                 <th scope="col" class="px-6 py-3">
-                                    Creada en fecha
+                                    Mano
                                  </th>
-                                                            <th scope="col" class="px-6 py-3">
-                                    Acciones
+                                <th scope="col" class="px-6 py-3">
+                                    Año nacimiento
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    Accion
                                 </th>
                             </tr>
                         </thead>

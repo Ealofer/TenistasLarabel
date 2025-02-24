@@ -17,9 +17,8 @@ Route::get('tenistas/{tenista}/edit',[TenistaController::class,'edit'])->name(na
 Route::put('tenistas/{tenista}',[TenistaController::class,'update'])->name(name:'tenistas.update');
 Route::delete('tenistas/{tenista}',[TenistaController::class,'delete'])->name(name:'tenistas.delete');
 
-
 Route::get('torneos', [TorneoController::class,'index'])->name(name: 'torneos.index');
-Route::post('torneos', [TorneoController::class, 'store'])->name(name:'torneos.store');
+Route::post('torneos/store', [TorneoController::class, 'store'])->name(name:'torneos.store');
 Route::get('torneos/create',[TorneoController::class,'create'])->name(name:'torneos.create');
 Route::get('torneos/{torneo}/edit',[TorneoController::class,'edit'])->name(name:'torneos.edit');
 Route::put('torneos/{torneo}',[TorneoController::class,'update'])->name(name:'torneos.update');
